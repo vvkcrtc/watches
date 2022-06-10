@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ClkDiv {
+  float: left; /*Задаем обтекание*/
+  line-height: 120px;/*Высота строки +  верт. центрирования текста*/
+  font-size: 40px;
+  background: dodgerblue;
+  color: white;
+  margin-top: 60px;
+  width: 320px; /*Фиксируем ширину блока*/
+  margin-right: 10px;
+  text-align: center; /*Центрируем текст по горизонтали*/
+ }
+
+ .ClkUl {
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 4px; /* Значение полей */
+  list-style: none;
+ }
+ .ClkLi {
+  display: inline; /* Отображать как строчный элемент */
+  float: left;
+  margin-right: 5px; /* Отступ слева */
+  border: 1px solid #000; /* Рамка вокруг текста */
+  padding: 3px; /* Поля вокруг текста */
+  
+ }
+
+ .FormStyle {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.InputStyle {
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 10px;
+ 
+}
+.ButtonAdd {
+  font-size: 20px;
+  font-weight: 700;
+  width: 100px;
+  border-radius: 10px;
+
+}
+
+.ButtonCls {
+  font-size: 17px;
+  font-weight: 500;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+
+}
+
+.TD {
+  background: #fff; /* Цвет фона ячеек */
+  text-align: center; /* Выравнивание по центру */
+  
+  width: 100px;
+ }
+
+ .Table {
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+  width: 300px; /* Ширина таблицы */
+ }
+
+.ScrlDiv {
+  border: 1px solid; 
+  padding: 5px; 
+  height: 100px; 
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.OutText {
+  font-size: 20px;
+  font-weight: 700;
+  color:rgb(4, 4, 109);
+
+}
